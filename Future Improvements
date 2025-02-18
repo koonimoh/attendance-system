@@ -1,0 +1,16 @@
+Future Improvements
+
+Potential future enhancements include:
+
+    Enhanced Security:
+        Add liveness detection and anti-spoofing measures to prevent unauthorized access.
+        Implement notification systems (e.g., email or SMS alerts) for unrecognized faces.
+    Improved User Interface:
+        Develop a GUI using PyQt or Tkinter for easier interaction.
+        Build a web-based dashboard for real-time monitoring and historical analytics.
+    Scalability:
+        Extend the system to support multiple cameras and integration with access control systems.
+        Improve data storage with a proper database backend.
+    Customization & Error Handling:
+        Allow on-the-fly registration of new users.
+        Enhance error handling and logging for a more robust system.
