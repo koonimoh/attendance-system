@@ -30,6 +30,7 @@ The program is designed to record exactly one log entry per run:
    git clone https://github.com/yourusername/attendance-system.git
    cd attendance-system
 2. Create a Virtual Environment:
+   ```bash
     python -m venv venv
 
 3.Activate the Virtual Environment:
@@ -37,11 +38,11 @@ The program is designed to record exactly one log entry per run:
    On Windows:
   ```bash
   venv\Scripts\activate
-
+```
   On macOS/Linux:
-
+   ```bash
     source venv/bin/activate
-
+```
 Install Dependencies:
 
     pip install -r requirements.txt
@@ -49,5 +50,6 @@ Install Dependencies:
 4. Usage
 
 Run the attendance system with:
-
+```bash
 python attendance_system.py
+```
