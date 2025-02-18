@@ -34,7 +34,7 @@ The program is designed to record exactly one log entry per run:
 
 3.Activate the Virtual Environment:
 
-    On Windows:
+   On Windows:
 
   venv\Scripts\activate
 
