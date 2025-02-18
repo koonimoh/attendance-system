@@ -35,7 +35,7 @@ The program is designed to record exactly one log entry per run:
 3.Activate the Virtual Environment:
 
    On Windows:
-
+  ```bash
   venv\Scripts\activate
 
   On macOS/Linux:
