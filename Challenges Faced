@@ -1,0 +1,14 @@
+Challenges Faced
+
+During development, several challenges were encountered:
+
+    Compatibility Issues:
+    Python 3.13 caused compatibility issues with dlib and face_recognition. After discussions and testing, it was determined that using Python 3.10 or 3.11 provided a more stable environment.
+    Exit Mechanism:
+    Implementing a reliable exit strategy was challenging. The program now exits 5 seconds after a face is detected or 10 seconds if no face is detected, with an option for manual exit via 'q'.
+    Log File Naming:
+    Windows does not allow certain characters (like colons or asterisks) in file names. The log file naming was refined to use underscores and hyphens to format date and time correctly.
+    Mismatch Handling:
+    Capturing a mismatched face and saving it separately, then logging the event with a brief description, required careful coordination between face detection and file operations.
+    Security Considerations:
+    Determining whether a face matched a known individual or not, and logging mismatches for further review, added additional complexity.
